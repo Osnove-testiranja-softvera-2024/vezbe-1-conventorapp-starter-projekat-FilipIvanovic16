@@ -43,7 +43,7 @@ namespace OTS2023_ConventorApp
             }
             else if(radioLength.Checked == true)
             {
-                MassConverter converter = new MassConverter();
+                LengthConverter converter = new LengthConverter();
                 textBox2.Text = converter.Convert(Convert.ToInt64(textBox1.Text)).ToString();
             }
         }
